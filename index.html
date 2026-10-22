@@ -223,7 +223,7 @@ h2{font-size:clamp(26px,3.6vw,42px);line-height:1.12;color:var(--brown);margin:0
 .recipe-info{padding:20px 22px 22px;display:flex;flex-direction:column;flex:1;justify-content:space-between}
 .recipe-info h3{margin:0 0 8px;color:var(--brown);font-size:20px;font-family:'Montserrat','Plus Jakarta Sans',sans-serif;font-weight:800;line-height:1.2}
 .recipe-info p{margin:0 0 14px;color:#65554c;font-size:14px}
-.recipe-meta{display:flex;align-items:center;justify-content:space-between;padding-top:12px;border-top:1px dashed #ead8c7;font-size:12px;font-weight:700;color:#6E5648}
+.recipe-meta{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:6px;padding-top:12px;border-top:1px dashed #ead8c7;font-size:12px;font-weight:700;color:#6E5648}
 
 /* Quebra de Objeção: Comparativo ❌ vs ✅ */
 .compare-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-bottom:44px}
@@ -302,7 +302,7 @@ h2{font-size:clamp(26px,3.6vw,42px);line-height:1.12;color:var(--brown);margin:0
 .indexcol ol{margin:0;padding-left:28px;columns:1}
 .indexcol.full-span ol{columns:2;column-gap:32px}
 .indexcol li{padding:3px 0;font-size:13.5px;color:#57483f;break-inside:avoid}
-.indexcol li.highlight-match{background:#fff3cd;font-weight:800;color:var(--brown);border-radius:4px;padding-left:4px}
+.indexcol li.highlight-match{background:#fff3cd;font-weight:800;color:var(--brown);border-radius:4px;padding:3px 6px}
 .indexcol li::marker{color:var(--caramel);font-weight:800}
 .no-results{display:none;grid-column:1 / -1;text-align:center;padding:28px 20px;background:#fff;border:1px dashed #d9bca5;border-radius:16px;color:#5E4B40;font-weight:700;font-size:15px}
 .no-results p{margin:0 0 12px}
@@ -448,7 +448,7 @@ footer{border-top:1px solid #eaded3;padding:32px 0;text-align:center;color:#5E4B
   .nav .logo{font-size:12px}
   .nav-cta{padding:9px 13px;font-size:12px}
   .hero-actions .btn,.final-cta .btn{width:100%}
-  .sneak-box{padding:20px 16px}
+  .sneak-box,.compare-box{padding:20px 16px}
   .sticky-mobile-cta{display:flex}
 }
 @media(max-width:360px){
